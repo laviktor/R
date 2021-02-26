@@ -1,0 +1,16 @@
+#This file is to calculate Mean, Median, and Mode for R
+
+#In order to create data sets, we use the "c()" function which stands for "combine".
+
+#Mode is not built-in to R. We have to make our own function.
+#Note: Source for mode syntax was found here: https://www.tutorialspoint.com/r/r_mean_median_mode.htm
+
+getmode <- function(v)
+{
+	uniqv <- unique(v)
+	uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+print("Suppose we have the following data set: 1, 2, 4, 2, 5.")
+
+set1 <- c(1, 2, 4, 2, 5)
