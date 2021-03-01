@@ -14,3 +14,14 @@ getmode <- function(v)
 print("Suppose we have the following data set: 1, 2, 4, 2, 5.")
 
 set1 <- c(1, 2, 4, 2, 5)
+
+mean1 <- mean(set1)
+median1 <- median(set1)
+mode1 <- getmode(set1)
+
+#Concatenation is done differently in R. It uses the "cat()" function.
+#Note: "print()" is a "slower" way of printing out stuff, as well as spacing new lines, and so on.
+#It is better to use "cat()" if wanting to combine other variable types.
+#Space after string values in "cat()" are not needed.
+
+cat("The mean is", mean1)
