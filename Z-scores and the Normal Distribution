@@ -1,0 +1,11 @@
+#We want to be able to calculate the Z-score given the population mean and population standard deviation.
+#In addition to that, we want to be able to acquire the associated percentages with the Z-Score.
+#When teaaching, I describe this as the "forwards" direction. That is: x-values-->Z-score-->percentages. Eventually, we have to go the reverse direction.
+
+x <- 
+mu <- 
+sigma <- 
+
+z <- (x - mu)/sigma
+
+print(z)
