@@ -1,0 +1,10 @@
+#The Central Limit Theorem (CLT) applies to non-normalized distribution, but still using the knowledge from the normal distribution and z-scores.
+#Note: There may be a more efficient way in R to calculate the z-score invoking the CLT. Until then, we shall calculate manually.
+
+mu <-
+sigma <-
+n <- 
+
+xbar1 <-
+
+z <- (xbar1 - mu)/(sigma/sqrt(n))
