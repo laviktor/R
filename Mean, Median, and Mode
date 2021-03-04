@@ -24,6 +24,6 @@ mode1 <- getmode(set1)
 #It is better to use "cat()" if wanting to combine other variable types.
 #Space after string values in "cat()" are not needed.
 
-cat("The mean is", mean1)
-cat(\n"The median is", median1)
-cat(\n"The mode is", mode1)
+cat("\nThe mean is", mean1)
+cat("\nThe median is", median1)
+cat("\nThe mode is", mode1)
