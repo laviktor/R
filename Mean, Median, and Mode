@@ -25,3 +25,5 @@ mode1 <- getmode(set1)
 #Space after string values in "cat()" are not needed.
 
 cat("The mean is", mean1)
+cat(\n"The median is", median1)
+cat(\n"The mode is", mode1)
