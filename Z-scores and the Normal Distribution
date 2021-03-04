@@ -15,4 +15,6 @@ cat("\n\nOnce we have the z-score, we can use it to calculate the percentage ass
 cat("\n\n", pnorm(x, mean = mu, sd = sigma))
 
 #The format above is strictly finding left-tailed statistics (Must test again).
-#To find the right tail, the probability value must be subtracted from one.
+#To find the right tail, the probability value must be subtracted from one. For example...
+
+cat("\n\n", 1 - pnorm(x, mean = mu, sd = sigma))
