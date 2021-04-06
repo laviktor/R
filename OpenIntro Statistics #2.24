@@ -1,0 +1,10 @@
+cat("Initial Conditions\nH0: μ < 32 months\nHa: μ ≥ 32 months\nα = 0.10\nNote: Since the claim involves an ineuqality, we know the results will have a one-tailed test.")
+
+cat("\n\nCalculations:\nRecall the formula for calculating a t-statistic is\nt = (x̄ - μ) ÷ (s ÷ √n)")
+mu <- 32
+xbar <- 30.69
+s <- 4.31
+n <- 36
+
+t <- (xbar - mu)/(sigma / sqrt(n))
+
